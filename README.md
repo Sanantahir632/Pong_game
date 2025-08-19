@@ -43,9 +43,8 @@ Open the project folder.
 
 Run index.html in your browser.
 
-🌍 Live Demo
-
-👉 Play here: Pong Game – Live Demo
+## 🌍 Live Demo
+👉 Play here: [Pong Game – Live Demo](https://Sanantahir632.github.io/Pong_game/)
 
 🤝 Contributing
 
