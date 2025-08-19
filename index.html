@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Pong Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Simple Pong</h1>
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+      <label for="aiRange">AI speed</label>
+      <input id="aiRange" type="range" min="1" max="10" value="4" />
+      <label for="sfxToggle">Sound</label>
+      <button id="sfxToggle" class="active">On</button>
+      <label for="sfxVol">Vol</label>
+      <input id="sfxVol" type="range" min="0" max="1" step="0.01" value="0.5" />
+    </div>
+  </header>
+
+  <main>
+    <div class="game-wrap">
+      <canvas id="pongCanvas" width="800" height="500"></canvas>
+      <div class="scoreboard">
+        <span id="leftScore">0</span>
+        <span id="rightScore">0</span>
+      </div>
+    </div>
+
+    <section class="instructions">
+      <p>Move your mouse (or touch) vertically over the canvas to control the left paddle. The right paddle is controlled by a basic AI. First to 10 wins. Use the Sound and Vol controls to toggle and adjust effects.</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>Built with HTML, CSS & JavaScript • Add to your resume!</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
